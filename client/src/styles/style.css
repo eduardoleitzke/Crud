@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+.container_main{
+height: 100rem;
+    background: linear-gradient(360deg,#9a20b2, #c823c8,#670167);
+    background-size: cover;
+    position: absolute;
+}
+
+@keyframes border-walk {
+    0%{
+        
+    }
+}
+
+@keyframes color-change {
+    0% { background: linear-gradient(180deg, rgba(55, 4, 55, 0.983),rgba(24, 1, 24, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    15% { background: linear-gradient(180deg, rgba(240, 196, 240, 0.983),rgba(239, 82, 239, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    30% { background: linear-gradient(180deg, rgba(115, 75, 115, 0.983),rgba(231, 170, 231, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    45% { background: linear-gradient(180deg, rgba(226, 13, 226, 0.983),rgba(136, 123, 136, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    60% { background: linear-gradient(180deg, rgba(61, 31, 61, 0.983),rgba(228, 77, 228, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    75% { background: linear-gradient(180deg, rgba(238, 141, 238, 0.983),rgba(72, 7, 72, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    90% {background: linear-gradient(180deg, rgba(242, 132, 242, 0.9rgba(138, 69, 138, 0.612)612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    100% { background: linear-gradient(180deg, rgba(213, 79, 213, 0.983),rgba(224, 17, 224, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+  }
+
+
+  @keyframes react-color{
+    0%{
+        background: linear-gradient(180deg, rgba(110, 129, 235, 0.983),rgba(85, 125, 233, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(360deg, rgba(110, 129, 235, 0.983),rgba(85, 125, 233, 0.612));  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    
+  }
+
+
+  @keyframes mongo-color{
+    0%{
+        background: linear-gradient(180deg, rgba(2, 91, 12, 0.983),rgba(21, 31, 19, 0.612) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(360deg, rgba(2, 91, 12, 0.983),rgba(21, 31, 19, 0.612));  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}  
+
+@keyframes express-color{
+    0%{
+        background: linear-gradient(180deg, rgba(203, 48, 48, 0.983),rgba(233, 237, 232, 0.975) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(360deg, rgba(203, 48, 48, 0.983),rgba(233, 237, 232, 0.975));  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
+
+@keyframes border-move {
+    0%{
+     transform: rotate(0deg);
+    }
+    100%{
+     transform: rotate(360deg);
+    } 
+}
+
+@keyframes node-color{
+    0%{
+        background: linear-gradient(180deg, rgba(105, 233, 25, 0.983),rgba(233, 237, 232, 0.975) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(360deg, rgba(105, 233, 25, 0.983),rgba(233, 237, 232, 0.975) );  -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}  
+
+@font-face {
+    font-family: "8bit";
+    src: url("../Fonts/8-BIT\ WONDER.TTF");
+  }
+  
+header{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+}
+
+header p{
+    font-family: "8bit";
+    color: white;
+    padding: 2rem;
+    font-size: 2rem; 
+}
+
+header p span{
+    font-family: "8bit";
+    color: white;
+    font-size: 2rem; 
+    animation: color-change 1.5s infinite
+}
+.menu{
+    font-family: "8bit";
+    color: white;
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+    align-items: center;
+}  
+
+.menu li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu li:first-child:hover{
+    color:  rgba(244, 108, 244, 0.983)
+}
+
+.menu li:nth-child(2):hover{
+    color:  rgba(247, 79, 247, 0.983)
+}
+
+.menu li:nth-child(3):hover{
+    color:  rgba(245, 64, 245, 0.983)
+}
+
+.menu li:nth-child(4):hover{
+    color:  rgba(246, 30, 246, 0.983)
+}
+.menu li:nth-child(5):hover{
+    color:  rgba(255, 1, 255, 0.371)
+}
+
+
+h1{
+    color: white;
+   
+    right: 50%;
+    bottom: 50%; 
+    top: 50%;
+    left: 50%;
+}
+
+.spanteste{
+        /* color: transparent; */
+        font-size: 2rem;
+}
+
+.traco{
+    font-size: 4rem;
+}
+
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 15rem;
+    gap: 6rem;
+}
+
+.sobre_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2rem; */
+    padding: 2rem;
+    max-width: 50%;
+    line-height: 2rem;
+    position: relative;
+    overflow: hidden;
+    /* background: linear-gradient(360deg,#9a20b2, #c823c8,#670167); */
+    border-radius: 20px;
+}
+
+.sobre_text::before{
+    content: '';
+    position: absolute;
+    height: 5rem;
+    width: 120%;    
+    background: linear-gradient(360deg, #ffffff, #9a20b2);
+    animation: border-move 4s linear infinite;
+    border-radius: 20px;
+}
+
+.sobre_text::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: linear-gradient(360deg,#9a20b2, #c823c8,#670167);   
+    border-radius: 20px;
+}
+
+.sobre_text p{
+    z-index: 10;
+    position: relative;
+}
+
+.react{
+    animation: react-color 1s infinite;
+}
+
+.mongo{
+    animation: mongo-color 1s infinite;
+}
+
+.express{
+    animation: express-color 1s infinite;
+}
+
+.node{
+    animation: node-color 1s infinite;
+}
+
+.imgEu{
+    position: relative;
+    left: -22rem;
+}
